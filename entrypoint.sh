@@ -4,7 +4,7 @@ if [[ -z "${UUID}" ]]; then
 fi
 
 if [[ -z "${AlterID}" ]]; then
-  AlterID="10"
+  AlterID="8"
 fi
 
 if [[ -z "${V2_Path}" ]]; then
@@ -47,7 +47,7 @@ cd /root
 mkdir /wwwroot
 cd /wwwroot
 
-wget --no-check-certificate -qO 'demo.tar.gz' "https://github.com/ki8852/v2ray-heroku-undone/raw/master/demo.tar.gz"
+wget --no-check-certificate -qO 'demo.tar.gz' "https://github.com/ki8852/v2ray-heroku-ct81757/raw/master/demo.tar.gz"
 tar xvf demo.tar.gz
 rm -rf demo.tar.gz
 
